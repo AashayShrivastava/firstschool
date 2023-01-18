@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ff9f0930;
+}
+header{
+    width: 100vw;
+    background: #0a73a6;
+    padding: 0;
+}
+.navbox{
+    display:flex;
+    justify-content: "center";
+    width: 100vw;
+
+}
+nav ul{
+    display: flex;
+    justify-content:flex-start;
+    
+    align-items:center;
+    height: 58px;
+    margin-left: 1vw;
+    width: 45vw;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 3px;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2vw;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 0 23px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.search{
+    display: flex;
+    margin-right: 2vw;
+    align-items: center;
+}
+.search input{
+    width: 28vw;
+height: 3vw;
+    border-radius: 12px;
+    margin: 0 0vw 0 17vw;
+    padding: 0px .5vw;
+  
+}
+.btn{
+    font-size: .8vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+  }
+
+.imga{
+    height: 24vw;
+    width:100vw ;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+    
+
+
+
+.RED img{
+    height: 23vw;
+    width: 67vw;
+    margin-left: auto;
+}
+.brown{
+    text-align:center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    text-decoration: underline dotted darkred;
+
+}
+.activities{
+    
+    justify-content: center;
+    flex-direction: row;
+    width: 99vw;
+}
+.card{
+    
+    width: 96vw;
+    margin: auto;
+    
+    
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-item{
+    display:flex;
+    justify-content:center ;
+    flex-direction: column;
+    width: 20vw;
+    margin: 1vw;
+    
+}
+.text-center{
+    text-align: center;
+    font-size: 2vw;
+}
+.ada{
+    height: 11vw;
+}
+.achieve{
+
+        display: inline;
+        width: 48vw;
+        background-color: rgba(49, 23, 228, 0.92);
+        height: 21vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+      
+}
+.test{
+    display: inline;
+    width: 48vw;
+    
+    background-color: rgb(128, 11, 11);
+    height: 45vh;
+
+}
+.achieve ul {
+    text-align: center;
+}
+.test{
+    text-align: center;
+    height: 21vw;
+}
+    
+   
+
+
+.write{
+    display: flex;
+    margin-bottom: 2px;
+}
+.navy{
+    font-size: 4vw;
+    text-decoration: underline red dotted;
+    color: white;
+
+}
+.beyblade{
+    text-align: left;
+    text-align: left;
+    margin-left: 7vw;
+    font-size: 2vw;
+    color: white;
+}
+.flyove{
+    font-size: 4vw;
+    text-decoration: underline red dotted;
+    color: white;
+
+}
+.beach{
+    text-align: left;
+    text-align: left;
+    margin-left: 10vw;
+    font-size: 2vw;
+    color: white;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+footer{
+    height: 14vh;
+    color:white;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer{
+    text-decoration: ;
+}
+a:hover{
+    color: rgba(255, 21, 0, 0.875);
+}
